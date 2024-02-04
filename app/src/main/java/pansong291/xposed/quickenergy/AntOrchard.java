@@ -361,7 +361,7 @@ public class AntOrchard {
         }
     }
 
-    private static void batchHireAnimalRecommend() {
+ /*   private static void batchHireAnimalRecommend() {
         try {
             JSONObject jo = new JSONObject(AntOrchardRpcCall.batchHireAnimalRecommend(FriendIdMap.getCurrentUid()));
             if ("100".equals(jo.getString("resultCode"))) {
@@ -392,5 +392,5 @@ public class AntOrchard {
             Log.i(TAG, "batchHireAnimalRecommend err:");
             Log.printStackTrace(TAG, t);
         }
-    }
+    }*/
 }
